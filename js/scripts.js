@@ -67,7 +67,8 @@ $(document).ready(function() {
 
 
 
-  $("#result").show();
+  $("#result").slideToggle("slow");
+
   event.preventDefault();
   });
 });
