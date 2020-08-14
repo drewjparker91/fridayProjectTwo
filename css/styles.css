@@ -24,6 +24,7 @@ h2 {
   margin-right: 15px;
   background-color: dimgray;
   color: white;
+  position: fixed
 }
 
 .sidebar a {
@@ -31,20 +32,34 @@ h2 {
   color: white;
 }
 
+.sidebar a:hover {
+  color: #f1f1f1
+}
+
 .jumbotron {
   margin-bottom: 0px;
   background-color: dimgray;
+}
+
+.display-flex {
+  padding-left: 200px;
+  margin-left:20px;
+  margin-top: 20px;
 }
 
 p {
   text-align: left;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 li {
   list-style: none;
+}
+
+body {
+  background-color: darkgrey;
 }
 
 #result {
