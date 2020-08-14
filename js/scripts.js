@@ -7,7 +7,7 @@ $(document).ready(function() {
   const favPie = $("select#favPie").val();
 
   if (businessSize === "smallBus") {
-    if (favSport === "bball" ) {
+    if (favSport === "bBall" ) {
       if (favHoliday === "christmas") {
         $("#language").text("Ruby!");
       } else if (favHoliday === "thanksgiving") {
@@ -15,7 +15,7 @@ $(document).ready(function() {
       } else if (favHoliday === "halloween") {
         $("#language").text("C#");
       }
-    } else if (favSport === "fball") {
+    } else if (favSport === "fBall") {
       if (favHoliday === "christmas") {
         $("#language").text("Ruby");
       } else if (favHoliday === "thanksgiving") {
@@ -32,15 +32,41 @@ $(document).ready(function() {
         $("#language").text("C#");
       }
     }
-  } else if (paper === 'wrapP') {
-    if (candy === 'female') {
-      $("#celebrity").text("");
+  } else if (businessSize === "medBus") {
+    if (favSport === "bBall") {
+      if (favHoliday === "christmas") {
+        $("#language").text("Ruby");
+      } else if (favHoliday === "thanksgiving") {
+        $("#language").text("Python");
+      } else if (favHoliday === "halloween") {
+        $("#language").text("C#");
+      }
+    } else if (favSport === "fBall") {
+      if (favHoliday === "christmas") {
+        $("#language").text("Holly Flax");
+      } else if (favHoliday === "thanksgiving") {
+        $("#language").text("Nellie Bertram");
+      } else if (favHoliday === "halloween") {
+        $("#language").text("Jan Levinson");
+      }
+    } else if (favSport === "soccer") {
+      if (favHoliday === "christmas") {
+        $("#language").text("Ruby");
+      } else if (favHoliday === "thanksgiving") {
+        $("#language").text("Python");
+      } else if (favHoliday === "halloween") {
+        $("#language").text("C#");
+      }
     }
-  } else {
-    $("#celebrity").text("Stanley Hudson")
+  } else if (businessSize === "bigBus") {
+    $("#language").text("C++")
   }
+  
+
+
+
 
   $("#result").show();
   event.preventDefault();
-});
+  });
 });
