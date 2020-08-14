@@ -40,6 +40,7 @@ h2 {
 .jumbotron {
   margin-bottom: 0px;
   font-family: 'Courier New', Courier, monospace;
+  background-color: black;
 }
 
 .display-flex {
