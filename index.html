@@ -5,24 +5,24 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>What Office Character Are You?</title>
+  <title>Language Suggestor</title>
 </head>
 <body>
   <div class="jumbotron">
     <h1>Programmar Language Suggestor</h1>
   </div>
   <div class="sidebar">
-      <h2>Click a language to learn more about it</h2>
-        <a class="btn btn-link btn-block" href="https://www.ruby-lang.org/en/" target="blank" role="button">Ruby</a>
-        <a class="btn btn-link btn-block" href="https://www.python.org/" target="blank" role="button">Python</a>
-        <a class="btn btn-link btn-block" href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="blank" role="button">C#</a>
-        <a class="btn btn-link btn-block" href="https://www.cplusplus.com/" target="blank" role="button">C++</a>
+    <h2>Click a language to learn more about it</h2>
+      <a class="btn btn-link btn-block" href="https://www.ruby-lang.org/en/" target="blank" role="button">Ruby</a>
+      <a class="btn btn-link btn-block" href="https://www.python.org/" target="blank" role="button">Python</a>
+      <a class="btn btn-link btn-block" href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="blank" role="button">C#</a>
+      <a class="btn btn-link btn-block" href="https://www.cplusplus.com/" target="blank" role="button">C++</a>
   </div>
   <div class="display-flex">     
     <form id="yourInfo">
       <h3>Fill out the questionnaire below, and you will get a suggeston for what programming language you should learn!</h2>
       
-        <li><label for="businessSize">Which type of businesses do you prefer to support?</label>
+      <li><label for="businessSize">Which type of businesses do you prefer to support?</label>
       <select id="businessSize">
         <option value="smallBus">Small Businesses</option>
         <option value="medBus">Medium Businesses</option>
@@ -57,9 +57,9 @@
         <option value="marionberry">Marionberry</option>
       </select></li>
 
-      <button type="submit" class="btn btn-secondary">Show Results</button>
+      <button type="submit" class="btn btn-secondary">Show/Hide Results</button>
     </form>
-    <div id="resultHidden">
+    <div id="results">
       <p>You should learn: <span id="language"></span></p>
     </div>
 

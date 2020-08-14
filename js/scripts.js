@@ -67,7 +67,7 @@ $(document).ready(function() {
 
 
 
-  $("#resultHidden").show("slow");
+  $("#results").slideToggle("slow");
   
     
 
