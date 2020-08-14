@@ -49,8 +49,13 @@ h2 {
   margin-top: 20px;
 }
 
-.btn {
+#hideResults {
+  cursor: pointer;
+  color: #0088cc;
+}
 
+#hideResults:hover {
+  text-decoration: underline;
 }
 
 p {

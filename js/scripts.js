@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $("form#yourInfo").submit(function(event) {
   const businessSize = $("select#businessSize").val();
   const favSport = $("select#favSport").val();
@@ -60,18 +61,15 @@ $(document).ready(function() {
     }
   } else if (businessSize === "bigBus") {
     $("#language").text("C++")
+  } 
+
+  $("#results").show("slow"); {
   }
-  
-  
 
+  $("#hideResults").click(function() {
+    $("#results").hide("slow");
+  });
 
-
-
-  $("#results").slideToggle("slow");
-  
-    
-
-
-  event.preventDefault();
+  event.preventDefault(); 
   });
 });
