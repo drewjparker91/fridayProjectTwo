@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>What Office Character Are You?</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Programmar Language Suggestor</h1>
+    </div>
+    <h2>Fill out the questionnaire below, and you will get a suggeston for what programming language you should learn!</h2>
+    <form id="yourInfo">
+      <label for="businessSize">Which type of businesses do you prefer to support?</label>
+      <select id="businessSize">
+        <option value="smallbus">Small Business</option>
+        <option value="medbus">Medium Business</option>
+        <option value="bigbus">BIG BUSINESS</option>
+      </select>
+
+      <label for="favSport">Which sport do you prefer to watch?</label>
+      <select id="favSport">
+        <option value="bBall">Basketball</option>
+        <option value="fBall">Football</option>
+        <option value="soccer">Soccer</option>
+      </select>
+
+      <label for="favHoliday">Which holiday do you like best?</label>
+      <select id="favHoliday">
+        <option value="christmas">Christmas!</option>
+        <option value="thanksgiving">Thanksgiving!</option>
+        <option value="halloween">Halloween!</option>
+      </select>
+
+      <label for="favMovie">Which of these movies do you like best?</label>
+      <select id="favMovie">
+        <option value="female">Forest Gump</option>
+        <option value="male">Toy Story</option>
+        <option value="other">The Notebook</option>
+      </select>
+
+      <label for="favPie">Of these flavors of pie, which is your favorite?</label>
+      <select id="favPie">
+        <option value="Apple">Apple Pie</option>
+        <option value="Pumpkin">Pumpkin Pie</option>
+        <option value="Marionberry">Marionberry</option>
+      </select>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <div id="result">
+      <p>You are most like <span id="celebrity"></span></p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+ 
