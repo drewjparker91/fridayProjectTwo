@@ -67,7 +67,9 @@ $(document).ready(function() {
 
 
 
-  $("#result").slideToggle("slow");
+  $("#resultHidden").toggle("slow");
+  $("#resultShowing").toggle("slow");
+
 
   event.preventDefault();
   });

@@ -12,7 +12,7 @@
     <h1>Programmar Language Suggestor</h1>
   </div>
   <div class="sidebar">
-      <h2>Click on language to learn more about it</h2>
+      <h2>Click a language to learn more about it</h2>
         <a class="btn btn-link btn-block" href="https://www.ruby-lang.org/en/" target="blank" role="button">Ruby</a>
         <a class="btn btn-link btn-block" href="https://www.python.org/" target="blank" role="button">Python</a>
         <a class="btn btn-link btn-block" href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="blank" role="button">C#</a>
@@ -45,9 +45,9 @@
 
       <li><label for="favHoliday">Which holiday do you like best?</label>
       <select id="favHoliday">
-        <option value="christmas">Christmas!</option>
-        <option value="thanksgiving">Thanksgiving!</option>
-        <option value="halloween">Halloween!</option>
+        <option value="christmas">Christmas</option>
+        <option value="thanksgiving">Thanksgiving</option>
+        <option value="halloween">Halloween</option>
       </select></li>
 
       <li><label for="favPie">Of these flavors of pie, which is your favorite?</label>
@@ -59,9 +59,13 @@
 
       <button type="submit" class="btn btn-secondary">Show Results</button>
     </form>
-    <div id="result">
+    <div id="resultHidden">
       <p>You should learn: <span id="language"></span></p>
     </div>
+    <div id="resultShowing">
+      <p>Change your answers to get a different result!</p>
+    </div>
+
   </div>
 
 </body>
