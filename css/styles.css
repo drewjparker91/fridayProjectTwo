@@ -40,7 +40,14 @@ h2 {
 .jumbotron {
   margin-bottom: 0px;
   font-family: 'Courier New', Courier, monospace;
-  background-color: black;
+  background-color: midnightblue;
+  animation: colorchange 5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes colorchange {
+  from {background-color: midnightblue;}
+  to {background-color: lightsteelblue;}
 }
 
 .display-flex {
