@@ -13,6 +13,7 @@
       <h1>Programmar Language Suggestor</h1>
     </div>
     <h2>Fill out the questionnaire below, and you will get a suggeston for what programming language you should learn!</h2>
+    
     <form id="yourInfo">
       <label for="businessSize">Which type of businesses do you prefer to support?</label>
       <select id="businessSize">
@@ -44,15 +45,15 @@
 
       <label for="favPie">Of these flavors of pie, which is your favorite?</label>
       <select id="favPie">
-        <option value="Apple">Apple Pie</option>
-        <option value="Pumpkin">Pumpkin Pie</option>
-        <option value="Marionberry">Marionberry</option>
+        <option value="apple">Apple Pie</option>
+        <option value="pumpkin">Pumpkin Pie</option>
+        <option value="marionberry">Marionberry</option>
       </select>
 
-      <button type="submit" class="btn">Submit</button>
+      <button type="submit" class="btn btn-success">Submit</button>
     </form>
     <div id="result">
-      <p>You are most like <span id="language"></span></p>
+      <p>You should learn: <span id="language"></span></p>
     </div>
   </div>
 </body>
