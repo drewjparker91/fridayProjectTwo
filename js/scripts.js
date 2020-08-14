@@ -67,8 +67,9 @@ $(document).ready(function() {
 
 
 
-  $("#resultHidden").toggle("slow");
-  $("#resultShowing").toggle("slow");
+  $("#resultHidden").show("slow");
+  
+    
 
 
   event.preventDefault();
