@@ -8,13 +8,13 @@
   <title>What Office Character Are You?</title>
 </head>
 <body>
-  <div class="container">
+
     <div class="jumbotron">
       <h1>Programmar Language Suggestor</h1>
     </div>
     <div class="sidebar">
-        <h2>Languages</h2>
-        <p>click on a language to learn more about it</p>
+        <h2>Click on language to learn more about it</h2>
+        
          <a class="btn btn-link btn-block" href="https://www.ruby-lang.org/en/" target="blank" role="button">Ruby</a>
          <a class="btn btn-link btn-block" href="https://www.python.org/" target="blank" role="button">Python</a>
          <a class="btn btn-link btn-block" href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="blank" role="button">C#</a>
@@ -22,47 +22,48 @@
     </div>     
     <form id="yourInfo">
       <h3>Fill out the questionnaire below, and you will get a suggeston for what programming language you should learn!</h2>
-      <label for="businessSize">Which type of businesses do you prefer to support?</label>
+      
+        <li><label for="businessSize">Which type of businesses do you prefer to support?</label>
       <select id="businessSize">
-        <option value="smallBus">Small Business</option>
-        <option value="medBus">Medium Business</option>
-        <option value="bigBus">BIG BUSINESS</option>
-      </select>
+        <option value="smallBus">Small Businesses</option>
+        <option value="medBus">Medium Businesses</option>
+        <option value="bigBus">Big Businesses</option>
+      </select></li>
 
-      <label for="favSport">Which sport do you prefer to watch?</label>
+      <li><label for="favMovie">Which of these movies do you like best?</label>
+        <select id="favMovie">
+          <option value="female">Forest Gump</option>
+          <option value="male">Toy Story</option>
+          <option value="other">The Notebook</option>
+        </select></li>
+
+      <li><label for="favSport">Which sport do you prefer to watch?</label>
       <select id="favSport">
         <option value="bBall">Basketball</option>
         <option value="fBall">Football</option>
         <option value="soccer">Soccer</option>
-      </select>
+      </select></li>
 
-      <label for="favHoliday">Which holiday do you like best?</label>
+      <li><label for="favHoliday">Which holiday do you like best?</label>
       <select id="favHoliday">
         <option value="christmas">Christmas!</option>
         <option value="thanksgiving">Thanksgiving!</option>
         <option value="halloween">Halloween!</option>
-      </select>
+      </select></li>
 
-      <label for="favMovie">Which of these movies do you like best?</label>
-      <select id="favMovie">
-        <option value="female">Forest Gump</option>
-        <option value="male">Toy Story</option>
-        <option value="other">The Notebook</option>
-      </select>
-
-      <label for="favPie">Of these flavors of pie, which is your favorite?</label>
+      <li><label for="favPie">Of these flavors of pie, which is your favorite?</label>
       <select id="favPie">
         <option value="apple">Apple Pie</option>
         <option value="pumpkin">Pumpkin Pie</option>
         <option value="marionberry">Marionberry</option>
-      </select>
+      </select></li>
 
-      <button type="submit" class="btn btn-success">Submit</button>
+      <button type="submit" class="btn btn-secondary">Submit</button>
     </form>
     <div id="result">
       <p>You should learn: <span id="language"></span></p>
     </div>
-  </div>
+
 </body>
 </html>
 
